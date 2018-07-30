@@ -1,0 +1,42 @@
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    width: 336px;
+}
+#about-me {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    padding: 20px;
+}
+body{
+    width: 960px;
+    margin: 0px 260px;
+}
+p {
+    padding: 20px;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #b5aaac;
+    width: 920px;
+}
+a {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #cccccc;
+}
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+}
+.topnav a:hover {
+    background-color: black;
+    color: #ffffff;
+}
+hr {
+    width: 920px;
+}
