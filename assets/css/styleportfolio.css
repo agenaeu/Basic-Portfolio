@@ -14,10 +14,9 @@
     margin: 0 auto;
 }
 a {
-    padding: 29 px;
+    padding: 24.8px;
     background-color: #ffffff;
     color: #cccccc;
-    height: 67.9px; 
 }
 .topnav a {
     float: right;
@@ -32,7 +31,7 @@ a {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 20px;
     margin: 0px;
     width: 336px;
     display: inline-block;
@@ -55,13 +54,54 @@ a {
     width: 920px;
     background-color: #666666;
 }
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+    height: 300px;
+    width: 330px;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    width: 480px;
+    float: left;
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    width: 480px;
+    float: left;    
+}
+.centered {
+    position: absolute;
+    width: 330px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px 0px;
+}
+/* .centered2 {
+    position: fixed;
+    width: 330px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px 0px;
+} */
 .hr-2 {
     padding: 2px 20px 2px 20px;
     width: 100%;
     background-color: #4aaaa5;
     margin: 0px;
     border: 0px;
-    position: fixed; bottom: 33.6px;
+    position: static; bottom: 33.6px;
 }
 footer {
     padding: 20px 20px 0px 20px;
@@ -70,5 +110,5 @@ footer {
     width: 100%;
     margin: 0px;
     font-size: 12px;
-    position: fixed; bottom: 0px;
+    position: static; bottom: 0px;
 }
