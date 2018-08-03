@@ -19,10 +19,9 @@
     text-align: center;
 }
 a {
-    padding: 29 px;
+    padding: 29.2px;
     background-color: #ffffff;
-    color: #cccccc;
-    height: 76.8px; 
+    color: #cccccc; 
 }
 .topnav a:hover {
     background-color: black;
